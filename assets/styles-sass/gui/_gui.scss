@@ -1,0 +1,45 @@
+/* @author Bilal Cinarli */
+
+/** -------------------------------------------
+    GUI Related Styles
+    ------------------------------------------- **/
+/**
+  * GUI Definitions
+  * Only import the directories main files. No need the add other partials. In import order, each categorized partial
+  * imported in the main file of the category
+  */
+
+/**
+ * Externals
+ */
+@import "externals/externals";
+
+
+/**
+ * Layout
+ */
+@import "layout/layout";
+
+
+/**
+ * Elements
+ */
+@import "elements/elements";
+
+
+/**
+ * Particules
+ */
+@import "particules/particules";
+
+
+/**
+ * Components
+ */
+@import "components/components";
+
+
+/**
+ * Auxiliary
+ */
+@import "auxiliary/auxiliary";

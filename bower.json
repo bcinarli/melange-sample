@@ -1,0 +1,29 @@
+{
+  "name": "Melange Sample Project",
+  "version": "0.1.0",
+  "homepage": "https://github.com/bcinarli/melange-sample",
+  "authors": [
+    "Bilal Çınarlı <bcinarli@gmail.com>"
+  ],
+  "description": "Melange based project sample with directory structure and code organization",
+  "main": "index.html",
+  "keywords": [
+    "Melange",
+    "Caffeine",
+    "Sass",
+    "CSS",
+    "Scalable CSS"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "caffeine": "latest",
+    "melange": "latest"
+  }
+}
