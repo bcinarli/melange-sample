@@ -17,6 +17,10 @@
 
 /**
  * Layout
+ * In layout component, there lays the general position of the main elements like page-wrap, header, footer, content etc.
+ * Keep in mind, the layout components should only contain the position or size of these wrappers
+ * the other elements  like logo in the header, menu in the footer should defined in the components or particules or other
+ * appropriate folder to their definitions fit in.
  */
 @import "layout/layout";
 
