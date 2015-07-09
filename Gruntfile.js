@@ -13,13 +13,13 @@ module.exports = function(grunt) {
                     sourcemap: 'auto'
                 },
                 files  : {
-                    'assets/styles/styles.css': 'assets/styles-sass/styles.scss'
+                    'assets/styles/styles.css': 'source/scss/styles.scss'
                 }
             }
         },
         watch: {
             css: {
-                files: '**/*.scss',
+                files: 'source/**/*.scss',
                 tasks: ['sass']
             }
         }
